@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box; font-family: 'Teko', sans-serif;
+}
+body {background: black;color: whitesmoke;}
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+.fotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    width: 100vh;
+    max-width: 1040px;
+   padding-left: 60px;
+  
+}
+img{width: 750px; height: 500px;}
+
+.texto {font-size: 25px;text-align: center;}
+.h1 {font-size: 45px; text-align: center;padding-top: 15px;}
+
+footer {text-align: center;}
+
+@media (max-width: 768px) {
+    
+    p {font-size: 20px;}
+    .fotos {width: 380px; display: grid ; grid-template-columns: 1fr;padding-left: 5px; }
+    img {width: 380px; height: 300px;}
+  
+   
+}

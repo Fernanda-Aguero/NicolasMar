@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+*{ box-sizing: border-box; color: whitesmoke; font-family: 'Teko', sans-serif;}
+a {text-decoration: none;; }
+body {background: black;}
+ul {list-style: none; }
+
+    
+li {
+    float: left;align-items: stretch; width: 50%;
+   
+    
+  }
+  
+li a {
+    
+    color: lightseagreen;
+    padding: 44px 16px;
+    text-decoration: none;
+
+  }
+li a:hover {
+    background-color:purple; }
+
+img {width: 10%; height: auto;}
+.logo {display: flex; justify-content: center;}
+.menu {
+      display: flex; justify-content: flex-end; margin-right: 10%;
+      
+     
+    }
+      
+
+.menu a {
+ font-size: 35px;
+ border: solid 2px lightseagreen;
+ padding: 10px;
+
+ 
+}
+.perfil { 
+  display: flex;
+  justify-content: center;
+  
+}
+
+.encabezado {
+  position: relative;
+  animation-name:logo;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+}
+@keyframes logo {
+  from {
+      top: 200px;
+
+  }
+  to {top:0px;}
+}
+.titulo {
+    font-size: 60px;
+    text-align: center;
+    
+    
+}
+
+h2 {text-align: center;}
+h1{color: lightseagreen;}
+   p {font-size: 30px;}
+
+.redes {
+  display: flex;
+  justify-content: space-around;
+ height: 45px;
+
+ 
+}
+.redes a:hover {
+  background-color:lightseagreen;
+  padding: 20%;
+  
+}
+.redes a {font-size: 40px;}
+
+.video {
+  width: 75%;
+  margin: 10%;
+}
+
+.sobremi {
+  margin: 10%; text-align: justify;
+}
+.sobremi p {
+  font-size: 30px;
+ 
+
+}
+.ni{
+  font-size: 35px;
+}
+.titu{
+  text-align: center;
+  font-size: 35px;
+}
+.contacto { 
+  display: flex;
+  justify-content: space-around;
+}
+label {
+  font-size: 25px;
+
+}
+textarea {
+  color: black; font-size: 25px;
+
+}
+input {color: black; font-size: 25px; margin-left: 5%;}
+
+
+
+footer {
+  text-align: center;
+  
+}
+footer p {font-size: 20px;}
+
+@media (max-width: 768px) {
+
+  *{box-sizing: border-box;}
+  .menu {
+    display: flex; justify-content: flex-end; margin-right: 5%;
+    }
+  li a:hover {
+    background-color:purple; }
+
+  .menu a {
+    font-size: 25px;
+    border: solid 2px lightseagreen;
+    padding: 5px;
+  }
+  img {width: 150px; height: auto;}
+  h1{color: lightseagreen;font-size: 50px;}
+  video {
+      width: 380px;
+      height: auto;
+      padding-right: 50px;
+      }
+  .video {padding-right: 0px;}
+
+    .sobremi p {
+    font-size: 20px;
+    }
+    h2 {font-size: 30px;}
+    .titu {font-size: 30px;}
+   
+    .contacto { 
+     display: flex;
+     flex-wrap: wrap;
+    }
+    label {
+      font-size: 20px;
+    
+    }
+    textarea {
+      color: black; font-size: 20px;
+    
+    }
+    input {color: black; font-size: 20px; margin-left: 5%;}
+    .misdatos p{ color: lightseagreen;}
+ 
+ }
+  
+
+
