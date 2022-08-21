@@ -84,6 +84,8 @@ a {
         margin-right: 130px;
         font-size: 35px;
     }
-    
+    a {
+        text-decoration: none;font-family: 'Teko', sans-serif;
+    }
     
 }
