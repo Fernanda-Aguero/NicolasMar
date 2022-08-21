@@ -60,7 +60,7 @@ a {
 
 
 @media (max-width: 768px) {
-    .body { color: whitesmoke}
+    .body { color: whitesmoke ;}
     
     .texto {
         font-size: 50px;
@@ -86,6 +86,8 @@ a {
     }
     a {
         text-decoration: none;font-family: 'Teko', sans-serif;
+    
     }
+    .boton :hover {color:darkturquoise ;}
     
 }
